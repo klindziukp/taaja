@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'com.google.cloud.tools.jib' version '3.3.1'
+}
+
+group 'com.klindziuk'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.6.1'
+    implementation 'io.qameta.allure:allure-testng:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.19.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.19.0'
+    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.19.0'
+    implementation 'commons-io:commons-io:2.11.0'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/test'
+        }
+    }
+}
+
+jib {
+    from {
+        image = 'adoptopenjdk/openjdk11:jdk-11.0.11_9-alpine-slim'
+    }
+    to {
+        image = 'klindziuk/taaja'
+        credHelper = 'osxkeychain'
+    }
+    container {
+        jvmFlags = ['-Dlog4j.configurationFile=log4j2.properties', '-Xms1024m', '-Xmx1024m', '-Xdebug']
+        mainClass = 'com.klindziuk.taas.runner.TestNGSuiteRunner'
+        extraDirectories.paths = ['src/test/resources']
+        format = 'Docker'
+    }
+
+jar {
+    zip64 true
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest.attributes("Main-Class": "com.klindziuk.taas.runner.TestNGSuiteRunner")
+
+    from sourceSets.main.output
+    from sourceSets.test.output
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+test {
+      useTestNG()
+     }
+}

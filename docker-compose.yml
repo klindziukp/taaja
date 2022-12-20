@@ -1,0 +1,18 @@
+version: '3'
+services:
+  taaja:
+    image: klindziuk/taaja
+    container_name: taaja
+    volumes:
+      - ${PWD}/build:/build
+  allure:
+    image: frankescobar/allure-docker-service
+    container_name: allure
+    environment:
+      CHECK_RESULTS_EVERY_SECONDS: 1
+      KEEP_HISTORY: 1
+    ports:
+      - 5050:5050
+    volumes:
+      - ${PWD}/build/allure-results:/app/allure-results
+      - ${PWD}/build/allure-reports:/app/default-reports
