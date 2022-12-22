@@ -39,7 +39,7 @@ jib {
     }
     container {
         jvmFlags = ['-Dlog4j.configurationFile=log4j2.properties', '-Xms1024m', '-Xmx1024m', '-Xdebug']
-        mainClass = 'com.klindziuk.taas.runner.TestNGSuiteRunner'
+        mainClass = 'com.klindziuk.taaja.runner.TestNGSuiteRunner'
         extraDirectories.paths = ['src/test/resources']
         format = 'Docker'
     }
