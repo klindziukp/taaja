@@ -44,20 +44,18 @@ jib {
         format = 'Docker'
     }
 
-jar {
-    zip64 true
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    manifest.attributes("Main-Class": "com.klindziuk.taas.runner.TestNGSuiteRunner")
+    jar {
+        zip64 true
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+        manifest.attributes("Main-Class": "com.klindziuk.taaja.runner.TestNGSuiteRunner")
 
-    from sourceSets.main.output
-    from sourceSets.test.output
+        from sourceSets.main.output
+        from sourceSets.test.output
 
-    from {
-        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        from {
+            configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        }
     }
-}
 
-test {
-      useTestNG()
-     }
+    test.enabled = false
 }

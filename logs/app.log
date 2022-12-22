@@ -1,0 +1,48 @@
+2022-12-22 15:34:35,414 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:34:35,484 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:35:04,804 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:35:04,867 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:36:08,066 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:36:08,129 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:37:35,901 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:37:35,969 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:38:54,121 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:38:54,183 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:39:10,456 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:39:10,541 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:40:14,889 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:40:14,917 INFO c.k.t.r.l.TaajaSuiteListener [main] Directory with test-output deleted: true
+2022-12-22 15:40:14,985 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:41:15,003 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:41:15,084 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Started: com.klindziuk.taaja.runner.test.TestGroupThree.testForGroupThree
+2022-12-22 15:41:15,084 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Started: com.klindziuk.taaja.runner.test.TestGroupOne.testForGroupOne
+2022-12-22 15:41:15,084 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Started: com.klindziuk.taaja.runner.test.TestGroupTwo.testForGroupTwo
+2022-12-22 15:41:15,086 INFO c.k.t.r.t.TestGroupTwo [TestNG-test=com.klindziuk.taaja.runner-1] Running test method for group 'group-two'
+2022-12-22 15:41:15,086 INFO c.k.t.r.t.TestGroupThree [TestNG-test=com.klindziuk.taaja.runner-3] Running test method for group 'group-three'
+2022-12-22 15:41:15,086 INFO c.k.t.r.t.TestGroupOne [TestNG-test=com.klindziuk.taaja.runner-2] Running test method for group group-one
+2022-12-22 15:41:15,089 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Finished: testForGroupOne
+2022-12-22 15:41:15,089 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Finished: testForGroupTwo
+2022-12-22 15:41:15,095 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Finished: testForGroupThree
+2022-12-22 15:41:15,143 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:44:18,407 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:44:18,484 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Started: com.klindziuk.taaja.runner.test.TestGroupThree.testForGroupThree
+2022-12-22 15:44:18,484 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Started: com.klindziuk.taaja.runner.test.TestGroupTwo.testForGroupTwo
+2022-12-22 15:44:18,484 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Started: com.klindziuk.taaja.runner.test.TestGroupOne.testForGroupOne
+2022-12-22 15:44:18,487 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-2] Test Running group 'group-one'
+2022-12-22 15:44:18,487 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-3] Test Running group 'group-three'
+2022-12-22 15:44:18,487 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-1] Test Running group 'group-two'
+2022-12-22 15:44:18,489 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Finished: testForGroupTwo
+2022-12-22 15:44:18,489 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Finished: testForGroupOne
+2022-12-22 15:44:18,496 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Finished: testForGroupThree
+2022-12-22 15:44:18,538 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite
+2022-12-22 15:44:44,161 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Started: test-automation-as-java-application-suite
+2022-12-22 15:44:44,235 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Started: com.klindziuk.taaja.runner.test.TestGroupThree.testForGroupThree
+2022-12-22 15:44:44,235 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Started: com.klindziuk.taaja.runner.test.TestGroupTwo.testForGroupTwo
+2022-12-22 15:44:44,235 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Started: com.klindziuk.taaja.runner.test.TestGroupOne.testForGroupOne
+2022-12-22 15:44:44,237 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-3] Test Running group 'group-three'
+2022-12-22 15:44:44,237 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-2] Test Running group 'group-one'
+2022-12-22 15:44:44,237 INFO c.k.t.r.t.BaseTest [TestNG-test=com.klindziuk.taaja.runner-1] Test Running group 'group-two'
+2022-12-22 15:44:44,239 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-1] Test Finished: testForGroupTwo
+2022-12-22 15:44:44,239 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-2] Test Finished: testForGroupOne
+2022-12-22 15:44:44,245 INFO c.k.t.r.l.TaajaTestListener [TestNG-test=com.klindziuk.taaja.runner-3] Test Finished: testForGroupThree
+2022-12-22 15:44:44,292 INFO c.k.t.r.l.TaajaSuiteListener [main] Test Suite Finished: test-automation-as-java-application-suite

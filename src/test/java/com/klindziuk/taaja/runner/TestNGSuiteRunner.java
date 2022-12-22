@@ -38,7 +38,7 @@ public class TestNGSuiteRunner {
     List<XmlTest> xmlTests = new ArrayList<>();
     XmlTest xmlTest = new XmlTest();
     xmlTests.add(xmlTest);
-    xmlTest.setName("test.automation.as.java.application.tests");
+    xmlTest.setName("com.klindziuk.taaja.runner");
     xmlTest.setPackages(getPackages());
     xmlTest.setSuite(suite);
     return xmlTests;
@@ -47,7 +47,7 @@ public class TestNGSuiteRunner {
   private static List<XmlPackage> getPackages() {
     final List<XmlPackage> xmlPackages = new ArrayList<>();
     final XmlPackage xmlPackage = new XmlPackage();
-    xmlPackage.setName("com.klindziuk.taas.runner.test");
+    xmlPackage.setName("com.klindziuk.taaja.runner.test");
     xmlPackages.add(xmlPackage);
     return xmlPackages;
   }

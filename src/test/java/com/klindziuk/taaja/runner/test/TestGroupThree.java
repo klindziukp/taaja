@@ -12,7 +12,7 @@ public class TestGroupThree extends BaseTest {
 
   @Test(groups = {Group.GROUP_THREE})
   public void testForGroupThree() {
-    LOGGER.info("Running test method for group '{}'", Group.GROUP_THREE);
+    logTestExecution(Group.GROUP_THREE);
     Assert.assertEquals(1, 0);
   }
 }
